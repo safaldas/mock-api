@@ -28,22 +28,10 @@
       "boolean": {}
     },
     "Post": {
-      "title": { "string": {} },
-      "comments": {
-        "hasMany": "Comment"
-      },
-      "user": {
-        "belongsTo": "User"
-      }
+      "title": { "string": {} }
     },
     "Comment": {
-      "body": { "string": {} },
-      "post": {
-        "belongsTo": "Post"
-      },
-      "user": {
-        "belongsTo": "User"
-      }
+      "body": { "string": {} }
     }
   }
 }
