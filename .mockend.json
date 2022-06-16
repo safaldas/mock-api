@@ -30,7 +30,10 @@
   },
   "Post": {
     "title": {
-      "string": {}
+      "loremWords": { "minLength": 5, "maxLength": 20 }
+    },
+    "body": {
+      "loremSentences": { "minLength": 100, "maxLength": 200 }
     },
     "comments": {
       "hasMany": "Comment"
@@ -38,7 +41,7 @@
   },
   "Comment": {
     "body": {
-      "string": {}
+      "loremSentences": { "minLength": 10, "maxLength": 100 }
     },
     "post": {
       "belongsTo": "Post"
