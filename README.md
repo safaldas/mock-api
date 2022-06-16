@@ -16,6 +16,8 @@ Connect to the Mock REST API. Below is the doc for endpoint
 
 [REST docs](https://docs.mockend.com/#rest)
 
+The end point to use is https://mockend.com/safaldas/mock-api/users 
+
 Create the users List as shown in the wireframe. Use services, directives, filters where appropriate
 
 When clicked on a User bring them to the User Profile page. Use routing and transitions where appropriate.
