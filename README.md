@@ -7,7 +7,7 @@ Don't worry about styling for this test. We are only concerned with your knowled
 
 Task
 
-Use the [wireframes]() as the basis for your layout and API docs for your networking calls.
+Use the [wireframes](wireframes/users.png) as the basis for your layout and API docs for your networking calls.
 
 Create an app that accomplishes the following:
 Connect to the Mock REST API. Below is the doc for endpoint
