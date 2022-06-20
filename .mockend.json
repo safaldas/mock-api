@@ -1,7 +1,7 @@
 {
   "User": {
     "name": {
-      "string":{}
+       "regexp": "[A-Z][a-z]{5,10}" 
     },
     "bio":{
       "loremSentences": { "minLength": 20, "maxLength": 250 }
