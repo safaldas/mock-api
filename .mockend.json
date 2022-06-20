@@ -1,7 +1,7 @@
 {
   "User": {
     "name": {
-      "loremWords": { "minLength": 5, "maxLength": 10 }
+      "string":{}
     },
     "bio":{
       "loremSentences": { "minLength": 20, "maxLength": 250 }
